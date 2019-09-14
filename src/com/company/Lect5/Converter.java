@@ -3,11 +3,11 @@ package com.company.Lect5;
 public class Converter {
     public static void main(String[] args) {
 
-        int deci=11;
+        int deci=1011;
 //        int bin=decitobin(deci);
 //        System.out.println(bin);
 
-        System.out.println(decitobin(deci));
+        System.out.println(anytodeci(deci,2));
     }
 
 

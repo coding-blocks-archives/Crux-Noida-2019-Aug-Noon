@@ -49,5 +49,18 @@ public class Util {
         return max;
     }
 
+    public static int maxindexar(int ar[], int start, int end){
+
+        int max=start;
+
+        for (int i = start; i <=end ; i++) {
+
+            if(ar[max]<ar[i]){
+                max=i;
+            }
+        }
+        return max;
+    }
+
 
 }
