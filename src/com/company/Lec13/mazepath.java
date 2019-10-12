@@ -1,4 +1,4 @@
-package com.company.Lect9;
+package com.company.Lec13;
 
 public class mazepath {
 
@@ -13,18 +13,18 @@ public class mazepath {
             return 1;
         }
 
-        int cnt =0;
+    int cnt =0;
 
         if(row>1){
 
-           cnt+= mazepath(row-1,col,processed+"V");
-        }
+                cnt+= mazepath(row-1,col,processed+"V");
+                }
 
-        if(col>1){
-            cnt+=mazepath(row,col-1,processed+"H");
-        }
-       return cnt;
-    }
+                if(col>1){
+                cnt+=mazepath(row,col-1,processed+"H");
+                }
+                return cnt;
+                }
 
     public static void keypad(String processed, String unprocessed){
 
