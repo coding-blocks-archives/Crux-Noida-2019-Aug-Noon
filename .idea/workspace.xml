@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d613db9-995a-4873-8fe0-ed0848f780a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lec13/BItmask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lec13/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lec13/mazepath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lect9/mazepath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lect9/mazepath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lect9/mazepath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lect9/mazepath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lec13/BItmask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lec13/BItmask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lec13/BItmask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="185">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="e#95#96#0" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
@@ -258,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570893194186" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570893423980" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -266,6 +261,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.Lec13" />
       <recent name="com.company.Lec6" />
       <recent name="com.company.Lect5" />
     </key>
@@ -379,7 +375,7 @@
     <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34441805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34441805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +389,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4036851" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4031008" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -851,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lec13/BItmask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="185">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#95#96#0" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
