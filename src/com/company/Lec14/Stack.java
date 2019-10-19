@@ -36,7 +36,7 @@ public class Stack {
     public int pop() throws Exception{
 
         if(isEmpty()){
-            throw new Exception("Khaali he be");
+            throw new MYexception("Khaali he be");
         }
 
         return data[top--];

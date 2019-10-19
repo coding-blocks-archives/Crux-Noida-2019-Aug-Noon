@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class LexoPermute {
 
     public static void main(String[] args) {
+
+
         String str = "abc";
         int freq[]= frequency(str);
 

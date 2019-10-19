@@ -60,4 +60,6 @@ public class BItmask {
     //Subsequence problem discussed
 
     // 2 Unique no. problem discussed
+
+    //Magic no. GFG problem done
 }
