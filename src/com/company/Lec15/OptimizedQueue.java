@@ -1,6 +1,6 @@
 package com.company.Lec15;
 
-public class Queue {
+public class OptimizedQueue {
 
     private int data[];
 
@@ -8,7 +8,9 @@ public class Queue {
 
     private int end=0;
 
-    public Queue(){
+    private int front=0;
+
+    public OptimizedQueue(){
 
         this.data= new int[DEFAULT_SIZE];
     }
@@ -27,13 +29,15 @@ public class Queue {
         return true;
     }
 
-    public boolean isEmpty(){
-        return end==0;
+    public boolean isEmpty()
+    {
+        return end==front;
+
     }
 
     public void display(){
 
-        for (int i = 0; i <end ; i++) {
+        for (int i = front; i <end ; i++) {
             System.out.print(data[i]+" ");
         }
         System.out.println("End");
@@ -47,13 +51,13 @@ public class Queue {
             return 0;
         }
 
-        int temp=data[0];
+        int temp=data[front];
 
-        for (int i = 1; i <end ; i++) {
-            data[i-1]=data[i];
-        }
-
-        end--;
+//        for (int i = 1; i <end ; i++) {
+//            data[i-1]=data[i];
+//        }
+        front++;
         return temp;
+        // return data[front++];
     }
 }
