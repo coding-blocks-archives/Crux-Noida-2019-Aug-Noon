@@ -2,15 +2,15 @@ package com.company.Lec15;
 
 public class CircularQueue {
 
-    private int data[];
+    public int data[];
 
-    private int DEFAULT_SIZE=10;
+    public int DEFAULT_SIZE=10;
 
-    private int end=0;
+    public  int end=0;
 
-    private int front=0;
+    public int front=0;
 
-    private int size=0;
+    public int size=0;
 
     public CircularQueue(){
 
@@ -42,8 +42,8 @@ public class CircularQueue {
 
     public void display(){
 
-        for (int i = front; i <end ; i++) {
-            System.out.print(data[i]+" ");
+        for (int i = 0; i <size ; i++) {
+            System.out.print(data[(front+i)%data.length]+" ");
         }
         System.out.println("End");
     }
