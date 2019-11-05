@@ -37,6 +37,51 @@ public class GenericTree {
         }
     }
 
+    public void display(){
+        display(root,"");
+    }
+
+    private void display(Node node, String indent) {
+
+        System.out.println(indent+node.value);
+        for (int i = 0; i <node.children.size() ; i++) {
+            display(node.children.get(i),indent+"\t");
+        }
+
+    }
+
+    public int count() {
+        return count(root);
+    }
+
+    private int count(Node node) {
+        int count=1;
+        for (int i = 0; i <node.children.size() ; i++) {
+
+            count+=count(node.children.get(i));
+        }
+        return count;
+    }
+
+    public int maxnode(){
+        int max =root.value;
+        return  maxnode(max,root);
+    }
+
+    private int maxnode(int max, Node node) {
+
+        if(max<node.value){
+            max=node.value;
+
+        }
+
+        for (int i = 0; i <node.children.size() ; i++) {
+
+            max=maxnode(max,node.children.get(i));
+        }
+        return max;
+    }
+
     private class Node{
 
         private int value;
