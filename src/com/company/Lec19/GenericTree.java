@@ -1,6 +1,8 @@
 package com.company.Lec19;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class GenericTree {
@@ -48,6 +50,49 @@ public class GenericTree {
             display(node.children.get(i),indent+"\t");
         }
 
+    }
+
+    public void levelordertr(){
+        levelordertr(root);
+    }
+
+    public void levelordertr(Node node){
+
+        Queue<Node> queue= new LinkedList<>();
+        queue.add(node);
+
+        while(!queue.isEmpty()){
+
+            Node temp= queue.remove();
+            System.out.println(temp.value);
+
+            for (int i = 0; i <temp.children.size(); i++) {
+
+                Node node1= temp.children.get(i);
+                queue.add(node1);
+            }
+        }
+    }
+
+    public void depth(int k) {
+        depth(root,k);
+    }
+
+    public void depth(Node node, int k){
+
+
+        if(node==null) {
+           return;
+        }
+
+        if(k==0){
+            System.out.println(node.value);
+            return;
+        }
+
+        for (int i = 0; i <node.children.size() ; i++) {
+            depth(node.children.get(i),k-1);
+        }
     }
 
     public int count() {

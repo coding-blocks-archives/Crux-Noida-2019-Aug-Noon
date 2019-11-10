@@ -15,5 +15,8 @@ public class GenericTreeclient {
         tree.insert(s);
         tree.display();
         System.out.println(tree.count());
+
+        tree.levelordertr();
+        tree.depth(2);
     }
 }
