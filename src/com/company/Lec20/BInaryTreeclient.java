@@ -12,5 +12,10 @@ public class BInaryTreeclient {
         tree.insert(s);
         tree.insert(s);
         tree.insert(s);
+
+        tree.display();
+        System.out.println(tree.height());
+
+        System.out.println(tree.diameter());
     }
 }

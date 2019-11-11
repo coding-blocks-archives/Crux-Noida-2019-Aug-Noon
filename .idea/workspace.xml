@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d613db9-995a-4873-8fe0-ed0848f780a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lec20/BInaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lec19/GenericTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lec19/GenericTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lec19/GenericTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lec19/GenericTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lec19/GenericTreeclient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2019-Aug-Noon/com/company/Lec19/GenericTreeclient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lec19/GenericTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lec19/GenericTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lec19/GenericTreeclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lec19/GenericTreeclient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lec20/BInaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lec20/BInaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,11 +122,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lec20/BInaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="2842">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
               </folding>
@@ -143,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="351">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -177,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Lect7/StringBuildereg.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lect7/TwoDarrayeg.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lect7/Stringseg.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lect8/Recursionflow.java" />
@@ -227,6 +226,7 @@
         <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/com/company/Lec19/GenericTree.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lec19/GenericTreeclient.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lec20/BInaryTree.java" />
       </list>
     </option>
@@ -303,7 +303,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573376312557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573485398533" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -436,9 +436,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1223" height="724" extended-state="6" />
+    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2880204" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2880204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -605,6 +606,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java</url>
+          <line>6</line>
+          <properties class="com.company.Lec20.BInaryTreeclient" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -984,23 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lec19/GenericTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#2072#2073#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lec16/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1025,13 +1017,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Lec19/GenericTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lec20/BInaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="2842">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
           </folding>
@@ -1040,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lec20/BInaryTreeclient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="351">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
