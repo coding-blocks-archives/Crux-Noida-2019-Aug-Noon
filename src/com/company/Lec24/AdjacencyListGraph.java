@@ -149,6 +149,43 @@ public class AdjacencyListGraph<T> {
         }
     }
 
+    public void shortpath(){
+
+
+        Set<Vertex> visited =new HashSet<>();
+        Queue<Vertex> queue= new LinkedList<>();
+
+        Vertex vertex =vertices.get(0);
+
+        visited.add(vertex);
+        queue.add(vertex);
+        queue.add(null);
+
+        int level=0;
+
+        while(queue.size()>1){
+
+            Vertex front = queue.remove();
+
+            if(front==null){
+                level++;
+                queue.add(null);
+                continue;
+            }
+
+            System.out.println(front.value + " " +level);
+            for (Vertex padosi:front.neighbours) {
+                if(!visited.contains(padosi)){
+                    visited.add(padosi);
+                    queue.add(padosi);
+                }
+            }
+
+        }
+
+
+    }
+
 
 
     public Vertex find(T value){
@@ -162,6 +199,55 @@ public class AdjacencyListGraph<T> {
         return null;
     }
 
+    public boolean bipartite() {
+
+        Set<Vertex> visited = new HashSet<>();
+        Queue<Vertex> queue = new LinkedList<>();
+
+        Set<Vertex> red = new HashSet<>();
+        Set<Vertex> green = new HashSet<>();
+
+        Vertex vertex = vertices.get(0);
+
+        red.add(vertex);
+        visited.add(vertex);
+        queue.add(vertex);
+
+        while (!queue.isEmpty()) {
+
+            Vertex front = queue.remove();
+
+            if (red.contains(front)) {
+
+                for (Vertex padosi : front.neighbours) {
+                    if (!visited.contains(padosi)) {
+                        green.add(padosi);
+                        visited.add(padosi);
+                        queue.add(padosi);
+                    } else
+                        if (red.contains(padosi)){
+                            return false;
+                        }
+                }
+            }
+
+            if (green.contains(front)) {
+
+                for (Vertex padosi : front.neighbours) {
+                    if (!visited.contains(padosi)) {
+                        red.add(padosi);
+                        visited.add(padosi);
+                        queue.add(padosi);
+                    } else
+                        if (green.contains(padosi)){
+                            return false;
+                        }
+                }
+            }
+
+        }
+        return true;
+    }
 
     private class Vertex{
 
