@@ -14,7 +14,13 @@ public class GraphClient {
 
         graph.addEdge("A","B");
         graph.addEdge("B","C");
+        graph.addEdge("C","D");
+        graph.addEdge("A","C");
 
-        graph.display();
+//        graph.display();
+
+        AdjacencyMapgraph<String> graph1=graph.kruskal();
+
+        graph1.display();
     }
 }
